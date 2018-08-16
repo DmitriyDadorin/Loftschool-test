@@ -9,48 +9,61 @@
 </head>
 <body>
     <header class="header">
-        <div class="panel_logo">
+        <div class="container">
+
             <div class="logo">
+                <div class="img_logo">
                 <img src="https://streamwood.ru/img/registrator/registrator__man-4.png" alt="no img">
-                <p>Быстров Борис Викторович</p>
-                <p>bystrov@gmail.com</p>
-            </div>
+                </div>     
+                <div class="name_adress">     
+                <h2 class="name">Быстров Борис Викторович</h2>
+                <p class="mail">bystrov@gmail.com</p>
+                </div>    
+            </div>          
             <div class="social_network_icons">
-                <img src="icons/git.svg" alt="no img">
-                <img src="icons/sk.svg" alt="no img">
-                <img src="icons/vk.svg" alt="no img">
+                <a href="http://github.com"> <img src="icons/git.svg" alt="no img"></a>
+                <a href="http://skype.com"><img src="icons/sk.svg" alt="no img"></a>
+                <a href="http://vk.com"><img src="icons/vk.svg" alt="no img"></a>
             </div>
         </div>
     </header>
-    <section class="about_student">
-        <h1 class="main_caption">О будущем ученике</h1>
+    <section class="section_main">
+        <h1>О будущем ученике</h1>
         <p>Ребятам из Loftschool будет полезно узнать немного обо мне</p>
+        <div class="about_student">
+
         <div class="about_me">
             <img src="icons/hello.svg" alt="no img">
+            <div class="about_me_text">
             <h2>Немного обо мне</h2>
             <p>Я живу в Москве (Россия). Мне 26 лет. Высшее образование - закончил НИУ ИТМО. 
                 Опыт в разработке 1 год. Уже окончил курсы в Академии Программирования, где не плохо научился верстать. 
-                Пока есть только один сайт, которым могу похвастаться: <a>www.yandex.ru</a></p>
+                Пока есть только один сайт, которым могу похвастаться: <a href="www.yandex.ru">www.yandex.ru</a></p>
+            </div>    
         </div>
-        <div class="experience">
+        <div class="about_me">
                 <img src="icons/experience.svg" alt="no img">
-                <h2>Мой опыт в разработке</h2>
+                <div class="about_me_text">
+                <h2>Мой опыт в разработке</h2> 
                 <p>В этом блоке я расскажу о себе, что я уже умею. Здесь я укажу другие курсы,
                     которые до этого я уже проходил. Могу перечислить технологии, которыми уже умею пользоваться.
                     К примеру: html5, css3, sass, jade, git и пр.</p>
+                </div>
             </div>
-            
+            </div>
     </section>
     <section class="courses">
+        <div class="courses_caption">
         <h1>Курсы на loftblog</h1>
         <p>которые мне помогут в выполнении этого задания</p>
-        
+        </div>
+        <div class="block_container">
         <div class="block js">
             <img src="img/js.jpg" alt="">
             <h2>Основы javaScript</h2>
             <p>Видеокурс о одном из самых популярных языков программирования - JavaScript.
                  Изучая этот курс вы познаете этот прекрасный язык от самых основ.</p>
-                 <p> 24 урока (6 часов 46 минут)</p>
+                 <p class="fa-clock-o time"> 24 урока (6 часов 46 минут)</p>
                 <label><input type="checkbox">Посмотрел</label>
         </div>
         <div class="block jquery">
@@ -58,38 +71,41 @@
                 <h2>Основы <span class="uppercase">jquery</span></h2>
                 <p>Видеокурс о одном из самых популярных языков программирования - JavaScript. 
                     Изучая этот курс вы познаете этот прекрасный язык от самых основ.</p>
-                     <p> 11 уроков (2 часа 6 минут)</p>
+                     <p class="fa-clock-o time"> 11 уроков (2 часа 6 минут)</p>
                     <label><input type="checkbox">Посмотрел</label>
         </div>
         <div class="block base">
                 <img src="img/base.jpg" alt="">
-                <h2>Базовые элементы страницы></h2>
+                <h2>Базовые элементы страницы</h2>
                 <p>Видеокурс о одном из самых популярных языков программирования - JavaScript.
                      Изучая этот курс вы познаете этот прекрасный язык от самых основ.</p>
-                     <p> 9 уроков (2 часа 7 минут)</p>
+                     <p class="fa-clock-o time"> 9 уроков (2 часа 7 минут)</p>
                     <label><input type="checkbox">Посмотрел</label>
         </div>
+    </div>
+        <div class="block_container">
         <div class="block adaptive">
                 <img src="img/adaptive.jpg" alt="">
                 <h2>Создание адаптивных сайтов</h2>
                 <p>В этом курсе вы узнаете как создавать адаптивные сайты, что такое адаптивная верстка и дизайн.</p>
-                     <p> 7 уроков (2 часа 11 минут)</p>
+                     <p class="fa-clock-o time"> 7 уроков (2 часа 11 минут)</p>
                     <label><input type="checkbox">Посмотрел</label>
         </div>
-        <div class="block css">
+        <div class="block button">
                 <img src="img/button.jpg" alt="">
                 <h2>Верстка адаптивной css галереи</h2>
                 <p>В этом видеокурсе вы изучите инструменты, техники и подходы для web-разработчика, 
                     которые помогут вам решать поставленные задачи более быстро и эффективно.</p>
-                     <p> 6 уроков (1 час 9 минут)</p>
+                     <p class="fa-clock-o time"> 6 уроков (1 час 9 минут)</p>
                     <label><input type="checkbox">Посмотрел</label>
         </div>
         <div class="block css">
                 <img src="img/css.jpg" alt="">
                 <h2>Верстка адаптивной css галереи</h2>
                 <p>В этом курсе мы разберем как сверстать адаптивную css галерею. Также познакомимся с Flexbox.</p>
-                     <p> 4 урока (50 минут)</p>
+                     <p class="fa-clock-o time"> 4 урока (50 минут)</p>
                     <label><input type="checkbox">Посмотрел</label>
+                </div>
         </div>
     </section>
 <futer>

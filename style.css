@@ -1,0 +1,133 @@
+@font-face {
+    font-family: FiraSans;
+    src: url(fonts/FiraSans/FiraSans-Regular.ttf); 
+   }
+   @font-face {
+    font-family: FontAwesome;
+    src: url(fonts/FontAwesome/fontawesome-webfont.ttf); 
+   }   
+   .fa-clock-o::before{
+       content: '\f017';      
+       font-family: FontAwesome;
+   }
+   *{
+       font-family: FontAwesome, FiraSans;
+       margin: 0;
+       padding: 0;
+   }
+   /* Хедер */
+   .header{
+       height: auto;
+   }
+   .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8cc34b;
+    min-height: 90px;     
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.2);
+   }
+   .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+   }
+   .img_logo img{
+       margin-right: 20px;
+       border: white solid 2px;
+       border-radius: 100px;      
+   }
+   .name{
+       color: white;
+       margin-bottom: 4px;       
+   }
+   .mail{
+    color: white;
+   }   
+   .social_network_icons{  
+    display: flex;  
+    margin-right: 30px;
+   }
+   .social_network_icons a{     
+    display: flex;  
+    margin-left: 15px;    
+   }
+  
+   /* Главная секция */
+
+   /* заголовок */
+.section_main h1{
+text-align: center;
+margin-top: 80px;
+font-size: 42px;
+margin-bottom: 25px;
+}
+.section_main p{
+    text-align: center;
+    font-size: 21px;
+    color: #727272;    
+    }
+  /*   Блоки */
+.about_student{
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 100px; 
+}
+.about_me{
+    display: flex; 
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.about_me_text{
+    width: 280px;
+    height: auto;
+    margin-left: 23px;
+    }
+.about_me_text p{
+    text-align: left;
+    color: #727272;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Курсы */
+
+.courses{
+    background-image: url(img/gplaypattern.png);
+}
+.courses_caption{
+    text-align: center;
+    
+}
+.courses_caption h1{
+    font-size: 42px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.courses_caption p{
+    color: #727272;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+/* офрмление блоков курса */
+
+.block{
+    width: 300px;
+    height: auto;
+}
+
+.block_container{
+display: flex;
+flex-wrap: wrap;
+margin-left: 130px;
+margin-right: 130px;
+}
+.jquery{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
