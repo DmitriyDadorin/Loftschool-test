@@ -112,16 +112,22 @@ margin-bottom: 25px;
 
 /* офрмление блоков курса */
 
-.block{
-    width: 300px;
-    height: auto;
-}
+ .block{
+ width: 300px;
+ height: auto;
+ background-color: #ffffff;
+ box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.57);
+ display: table-row;
+ height: 100%;
+ } 
 
 .block_container{
 display: flex;
-flex-wrap: wrap;
+justify-content: center;
 margin-left: 130px;
 margin-right: 130px;
+padding-bottom: 70px;
+
 }
 .jquery{
     margin-left: 20px;
@@ -131,3 +137,44 @@ margin-right: 130px;
     margin-left: 20px;
     margin-right: 20px;
 }
+.img_block{
+    width: 300px;
+    height: 172px;
+    overflow: hidden;
+}
+.fa-clock-o{
+    padding-top: 50px;
+}
+.container_for_text{
+    padding-left: 23px;
+ 
+}
+.container_for_text p{
+    line-height: 21px;
+  
+}
+.container_for_text h2{
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+}
+.label_checkbox{
+    background-color: #f6f7f2;
+    width: auto;
+    height: 60px;
+}
+    
+
+.footer_fixed{
+    padding: 20px 0;
+    height: 30px;
+    background-color: #212121;
+}
+
+.footer_fixed p{
+         text-align: center;
+         color: white;
+         font-size: 14px;
+         line-height: 21px;
+         opacity: 0.7;
+ }
