@@ -177,4 +177,21 @@ padding-bottom: 70px;
          font-size: 14px;
          line-height: 21px;
          opacity: 0.7;
+         margin: 0;
+         padding: 0;
+ }
+ .label_checkbox label input {
+     display: none;
+ }
+ .label_checkbox{
+    padding-left: 23px;
+   
+ }
+ .label_checkbox label::before{
+     content: "";
+     padding-right: 5px;
+     border: 1px solid black;
+     width: 18px;
+     height: 18px;
+     background-color: #ffffff;
  }
