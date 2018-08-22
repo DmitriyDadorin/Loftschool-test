@@ -150,10 +150,10 @@ padding-bottom: 70px;
     padding-top: 21px;
     padding-bottom: 21px;
 }
-.label_checkbox{
+.label_checkbox{   
     background-color: #f6f7f2;
     width: auto;
-    height: 60px;
+    height: 60px;    
 }
 .footer_fixed{
     padding: 20px 0;
@@ -173,8 +173,9 @@ padding-bottom: 70px;
      display: none;
  } 
  .check_box{
-display: block;
-padding-top: 18px;
+display: inline-block;
+margin-top: 18px;
+margin-left: 23px;
  }
  .check_box::before{
      content: "";
@@ -184,7 +185,7 @@ padding-top: 18px;
      display: inline-block;
      vertical-align: middle;
      background-color: #ffffff;
-     margin-left: 23px;
+     
      margin-right: 10px;     
  }
 input:checked + .check_box::before{
@@ -224,3 +225,6 @@ input:checked + .check_box::before{
     transition: 3s;
     
   } 
+
+
+/*   Заливка */
