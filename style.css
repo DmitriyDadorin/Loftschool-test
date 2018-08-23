@@ -209,8 +209,7 @@ input:checked + .check_box::before{
     text-align: center;
     padding-top: 590px;
     color: #8cc34b;
-    font-size: 42px;
-    min-height: 100vh;    
+    font-size: 42px; 
 }
 .courses_end p::before{
     content: "\f00c";       
@@ -221,10 +220,12 @@ input:checked + .check_box::before{
     display: none;
 }
 .color_flood{
+    position: relative;
+    z-index: 999;
     background-color: red;
-    transition: 3s;
-    
+    transition: 3s;   
   } 
 
 
 /*   Заливка */
+
