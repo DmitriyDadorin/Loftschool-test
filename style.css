@@ -109,7 +109,6 @@ margin-bottom: 25px;
 
  .block{
  width: 300px;
- height: auto;
  background-color: #ffffff;
  box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.57);
  display: table-row;
@@ -228,3 +227,5 @@ input:checked + .check_box::before{
 
 
 /*   Заливка */
+
+.closed_flood{
