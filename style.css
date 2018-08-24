@@ -223,9 +223,17 @@ input:checked + .check_box::before{
     position: relative;
     z-index: 999;
     background-color: red;
-    transition: 3s;   
+    color: red;
+    transition: 3s;
+    opacity: 0;   
   } 
 
 
 /*   Заливка */
 
+.img_flood_add{   
+    transition: 3s; 
+    filter: opacity(0);
+    background-color: red;  
+}
+ 

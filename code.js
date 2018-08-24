@@ -17,13 +17,15 @@
   })
   })
 
-  document.querySelectorAll(".label_flood").forEach(function(flood){ 
+     document.querySelectorAll(".label_flood").forEach(function(flood){ 
 
     flood.querySelector(".checkbox").addEventListener("change", function(){ 
     flood.classList.add("color_flood");  
  
   })  
   })
+
+
 
 
             
