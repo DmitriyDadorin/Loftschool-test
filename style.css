@@ -225,7 +225,7 @@ input:checked + .check_box::before{
     background-color: red;
     color: red;
     transition: 3s;
-    opacity: 0;   
+    opacity: 0.3;   
   } 
 
 
@@ -237,3 +237,6 @@ input:checked + .check_box::before{
     background-color: red;  
 }
  
+.bg{
+    display: none;
+}
