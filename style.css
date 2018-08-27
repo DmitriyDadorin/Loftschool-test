@@ -90,7 +90,8 @@ margin-bottom: 25px;
 
 .courses{
     background-image: url(img/gplaypattern.png);
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    min-height: calc(100vh - 70px);
     }
 .courses_caption{
     text-align: center;    
@@ -109,7 +110,6 @@ margin-bottom: 25px;
 
  .block{
  width: 300px;
- height: auto;
  background-color: #ffffff;
  box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.57);
  display: table-row;
@@ -155,12 +155,12 @@ padding-bottom: 70px;
     width: auto;
     height: 60px;    
 }
-.footer_fixed{
+.footer{
     padding: 20px 0;
     height: 30px;
     background-color: #212121;    
 }
-.footer_fixed p{    
+.footer p{    
          text-align: center;
          color: white;
          font-size: 14px;
@@ -228,15 +228,11 @@ input:checked + .check_box::before{
     opacity: 0.3;   
   } 
 
-
 /*   Заливка */
 
 .img_flood_add{   
-    transition: 3s; 
+    transition: 1s; 
     filter: opacity(0);
-    background-color: red;  
+ 
 }
  
-.bg{
-    display: none;
-}
