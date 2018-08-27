@@ -225,7 +225,7 @@ input:checked + .check_box::before{
     background-color: red;
     color: red;
     transition: 3s;
-    opacity: 0.3;   
+    opacity: 0;   
   } 
 
 /*   Заливка */
@@ -235,4 +235,6 @@ input:checked + .check_box::before{
     filter: opacity(0);
  
 }
- 
+ .block_none{
+     display: none;
+ }
