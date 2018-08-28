@@ -1,14 +1,22 @@
-   document.querySelectorAll(".block").forEach(function(block){ 
+   document.querySelectorAll(".block").forEach(function(block, index, arr){ 
     block.querySelector(".checkbox").addEventListener("change", function(){ 
     block.classList.add("color_flood");
-    function func(){
+     function func(){
       block.classList.add("block_none");
     }
-    setTimeout(func, 3000);
-
+    setTimeout(func, 3000);  
+    
+     if(arr.cheked == true){
+     /*  document.querySelectorAll(".courses_end").classList.remove("block_none_courses"); */
+    }     
+ 
+    
   
   })
   })
+
+  
+
 
     document.querySelectorAll(".label_flood").forEach(function(flood){ 
     flood.querySelector(".checkbox").addEventListener("change", function(){ 

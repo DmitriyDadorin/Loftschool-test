@@ -122,12 +122,15 @@ margin-left: 130px;
 margin-right: 130px;
 padding-bottom: 70px;
 }
-.jquery{
-    margin-left: 20px;
+.jquery{    
     margin-right: 20px;
 }
-.button{
-    margin-left: 20px;
+.button{    
+    margin-right: 20px;}
+.js{
+    margin-right: 20px;
+}
+.adaptive{
     margin-right: 20px;
 }
 .img_block{
@@ -200,9 +203,11 @@ input:checked + .check_box::before{
      input:checked + .check_box{
      color: rgba(15, 182, 15, 0.795);
  }
+ .block_none{
+    display: none;
+}
 
 /* Задание выполнено */
-
 .courses_end{
     background-image: url(img/gplaypattern.png);
     min-height: 100vh;    
@@ -216,7 +221,7 @@ input:checked + .check_box::before{
     display: inline-block;
     padding-right: 15px;
 }
-.block_none{
+.block_none_courses{
     display: none;
 }
 .color_flood{
@@ -235,6 +240,5 @@ input:checked + .check_box::before{
     filter: opacity(0);
  
 }
- .block_none{
-     display: none;
- }
+
+ 
