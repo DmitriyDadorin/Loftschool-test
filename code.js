@@ -6,16 +6,26 @@
     }
     setTimeout(func, 3000);  
     
-     if(arr.cheked == true){
+   
      /*  document.querySelectorAll(".courses_end").classList.remove("block_none_courses"); */
-    }     
  
-    
   
   })
   })
 
-  
+
+
+  document.querySelectorAll(".checkbox").forEach(function(chekBox){
+    addEventListener("change", function(){
+     if(chekBox.checked == true){
+      document.querySelector(".courses_end").classList.remove("block_none_courses");
+     }
+    })    
+  })
+
+
+
+
 
 
     document.querySelectorAll(".label_flood").forEach(function(flood){ 
