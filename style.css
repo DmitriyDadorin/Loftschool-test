@@ -55,7 +55,7 @@
     filter: drop-shadow(0 0 10px rgb(255, 255, 255));
    }  
    /* Главная секция */
-   /* заголовок */
+   /* заголовок */ 
 .section_main h1{
 text-align: center;
 margin-top: 80px;
@@ -92,8 +92,7 @@ margin-bottom: 25px;
 /* Курсы */
 
 .courses{
-    background-image: url(img/gplaypattern.png);
-    /* min-height: 100vh; */
+    background-image: url(img/gplaypattern.png);    
     min-height: calc(100vh - 70px);
     }
 .courses_caption{
@@ -212,12 +211,12 @@ input:checked + .check_box::before{
 
 /* Задание выполнено */
 .courses_end{
-    background-image: url(img/gplaypattern.png);
-    min-height: 100vh;    
+    background-image: url(img/gplaypattern.png); 
     text-align: center;
-    padding-top: 590px;
+    padding-top: 300px;
+    padding-bottom: 300px;
     color: #8cc34b;
-    font-size: 42px; 
+    font-size: 42px;       
 }
 .courses_end p::before{
     content: "\f00c";       
