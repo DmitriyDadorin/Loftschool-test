@@ -51,6 +51,9 @@
     display: flex;  
     margin-left: 15px;    
    }  
+   .social_network_icons a:hover{     
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+   }  
    /* Главная секция */
    /* заголовок */
 .section_main h1{
